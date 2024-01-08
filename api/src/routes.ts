@@ -3,6 +3,7 @@ import * as authController from "./controllers/authController";
 import * as userController from "./controllers/userController";
 import * as postController from "./controllers/postController";
 import * as commentController from "./controllers/commentController";
+import * as openaiController from "./controllers/openAiController";
 import "express-async-errors";
 import { IsAuthenticated } from "middlewares/Auth";
 
@@ -36,4 +37,8 @@ router.delete(
     IsAuthenticated,
     commentController.deleteComment,
 );
+
+// Developing ...
+// OpenAI
+router.post("/test", openaiController.generatePost);
 export default router;

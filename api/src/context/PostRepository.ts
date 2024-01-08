@@ -1,4 +1,4 @@
-import { prisma } from "context/Prisma";
+import { prisma } from "lib/Prisma";
 
 class PostRepository {
     // Create post

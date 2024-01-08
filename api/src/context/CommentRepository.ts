@@ -1,4 +1,4 @@
-import { prisma } from "context/Prisma";
+import { prisma } from "lib/Prisma";
 
 class CommentRepository {
     async CreateComment(postId: string, userId: string, content: string) {

@@ -1,6 +1,6 @@
 // Packages
 import { Role } from "@prisma/client";
-import { prisma } from "context/Prisma";
+import { prisma } from "lib/Prisma";
 
 class UserRepository {
     // add user
