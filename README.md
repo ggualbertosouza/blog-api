@@ -3,6 +3,8 @@
 
 ## :rocket: Funcionalidades
 
+- Gerar posts pelo OpenAI
+- Validação de dados
 - Tratamento de erros
 - Autenticação por cookies com JWT, contendo ID e ROLE.
 - Criação de contas
@@ -12,12 +14,21 @@
 - CRUD completo de usuários, posts e comentários.
 
 ## :triangular_flag_on_post: Em desenvolvimento
-- Integraçao com OPENAI
-Com intuito de ter sugestões de uma IA para criação de um post.
 - Curtidas em comentários
 - Novidades em breve
 
+## Rode na sua máquina
 
+- Crie ".env" com as seguintes variáveis
+```javascript
+DATABASE_URL=     // use sua string de conexão
+PORT=             // Coloque a porta a qual você quer que rode
+JWT_SECRET =     // Crie uma key para o JWT
+OPENAI_API_KEY=  // Coloque aqui sua Key da OpenAI 
+```
+
+
+## Rotas
 
 ### :unlock: SIGNUP 
 
