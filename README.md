@@ -3,7 +3,7 @@
 
 ## :rocket: Funcionalidades
 
-- Gerar posts pelo OpenAI
+- Gerar posts pelo OpenAI - ChatGPT
 - Validação de dados
 - Tratamento de erros
 - Autenticação por cookies com JWT, contendo ID e ROLE.
