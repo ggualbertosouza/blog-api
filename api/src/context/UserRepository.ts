@@ -17,6 +17,13 @@ class UserRepository {
 
         return data;
     }
+
+    // Get ALl
+    async getAllUser() {
+        const users = prisma.user.findMany();
+
+        return users;
+    }
     // update user
     async updateUser(
         id: string,
